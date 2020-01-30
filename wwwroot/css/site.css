@@ -1,6 +1,32 @@
 ﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
 for details on configuring this project to bundle and minify static web assets. */
 
+.bg-orange{
+    background-color:orangered;
+    padding-bottom:20px;
+    margin-top:20px;
+    margin-bottom:20px;
+    
+}
+.carousel-item {
+    height: 450px;
+}
+
+.carousel-image-1 {
+    background: url('/Images/Projects.webp');
+    background-size: cover;
+}
+
+.carousel-image-2 {
+    background: url('/Images/GlobalWatch.webp');
+    background-size: cover;
+}
+
+.carousel-image-3 {
+    background: url('../img/image3.jpg');
+    background-size: cover;
+}
+
 a.navbar-brand {
   white-space: normal;
   text-align: center;
