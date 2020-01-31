@@ -1,0 +1,21 @@
+﻿@model PitchIt.ViewModels.AddPostViewModel
+
+<h1> Add A New Post </h1>
+
+<form asp-controller="Post" asp-action="Add" method="post">
+
+    <div class="form-group">
+        <label asp-for="PostTitle"></label>
+        <input class="form-control" asp-for="PostTitle"/>
+        <span asp-validation-for="PostTitle"></span>
+
+    </div>
+
+    <div class="form-group">
+        <label asp-for="PostBody"></label>
+        <input  class="form-control" asp-for="PostBody"/>
+        <span asp-validation-for="PostBody"></span>
+
+    </div>
+    <input type="submit" value="Submit Post" />
+</form>
